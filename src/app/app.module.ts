@@ -11,6 +11,7 @@ import { EncabezadoComponent } from './encabezado/encabezado.component';
 import { GestionMatriculaActualizarComponent } from './gestion-matricula-actualizar/gestion-matricula-actualizar.component';
 import { GestionMatriculasConsultarComponent } from './gestion-matriculas-consultar/gestion-matriculas-consultar.component';
 import { GestionMatriculasEliminarComponent } from './gestion-matriculas-eliminar/gestion-matriculas-eliminar.component';
+import { GestionarCalificacionesActualizarComponent } from './gestionar-calificaciones-actualizar/gestionar-calificaciones-actualizar.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { GestionMatriculasEliminarComponent } from './gestion-matriculas-elimina
     EncabezadoComponent,
     GestionMatriculaActualizarComponent,
     GestionMatriculasConsultarComponent,
-    GestionMatriculasEliminarComponent
+    GestionMatriculasEliminarComponent,
+    GestionarCalificacionesActualizarComponent
   ],
   imports: [
     BrowserModule,
